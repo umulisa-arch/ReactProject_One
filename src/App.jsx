@@ -1,33 +1,26 @@
-// import { Component, useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Component from './components/component'
-import {IoLogoGithub} from 'react-icons/io'
-import Footer  from './components/footer';
 
-function App() {
+import React from 'react'
+
+import Profiles from './components/Profiles'
+ import Courtney from '../public/Courtney-Henry.jpg'
+ import Dries from "../public/Dries-Vincent.jpg"
+import Leslie from "../public/Leslie-Alexander.jpg"
+import Lindsay from "../public/Lindsay-Walton.jpg"
+ import Michael from "../public/Michael-Foster.jpg"
+import tom from "../public/tom-cook.jpg"
+
+
+function App() { 
   return(
     <>
-    <div>
-      <h1>This is my react one</h1>
-      <h2>i love her</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur 
-        adipisicing elit. Impedit magnam illum ut, corporis neque  <br />
-        laborum! Error natus repudiandae perspiciatis similique facere <br />
-         dolore! Magnam consequatur quae obcaecati similique aut esse quidem?</p>
-    
-      <Component/>
-    </div>
-    <div>
-      <h3>
-        icon < IoLogoGithub/>
-      </h3>
-    </div>
 
-    <div>
-      <Footer/>
-    </div>
+        <Profiles image={Courtney} name="Courtney Henry" email="@leonardkrasn" title="Co-Founder/CEO" lastSeen =" lastseen 3:00"/>
+        <Profiles image={Dries} name="Kali Careena" email="@kalicareena" title="Co-Founder/CTO" lastSeen="LastSeen 3 hrs ago"/>
+        <Profiles image={Leslie} name="Leslie Alexander" email="@emilyselman" title="Business Relations" lastSeen="Online"/>
+        <Profiles image={Lindsay} name="Lindsay Walton" email="@emilyselman" title="FrontEnd developer" lastSeen="lastseen 3hrs ago"/>
+        <Profiles image={Michael} name="Michael Foster" email="@emilyselman" title="Designer" lastSeen="last seen 3hrs ago"/>
+        <Profiles image={tom} name="tom cook" email="@emilyselman" title="Director of Product" lastSeen="lastseen online"/>
+
     </>
   );
 }

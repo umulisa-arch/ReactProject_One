@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 25%;
+}
+.kid1{
+   display: flex;
+   margin-left: 50px;
+   
+}
+.Img img{
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.kid3{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+span{
+    color: rgb(174, 172, 170);
+}

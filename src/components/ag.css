@@ -1,6 +1,11 @@
 h1{
     color: red;
 }
-body{
+/* body{
     background-color: rgb(64, 120, 120);
+} */
+input{
+    padding: 10px;
+    border-radius: 5px;
 }
+
